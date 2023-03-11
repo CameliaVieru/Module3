@@ -1,0 +1,9 @@
+annotationApplicationEx2.JavaTeacher=org.springframework.stereotype.Component
+annotationApplicationEx2.WebDevTeacher=org.springframework.stereotype.Component
+application.HistoryTeacher=org.springframework.stereotype.Component
+application.HomeworkService=org.springframework.stereotype.Component
+application.JavaTeacher=org.springframework.stereotype.Component
+application.MathTeacher=org.springframework.stereotype.Component
+application.WisdomWordsService=org.springframework.stereotype.Component
+application1.MyBean=org.springframework.stereotype.Component
+application1.Singleton=org.springframework.stereotype.Component
