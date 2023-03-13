@@ -1,0 +1,7 @@
+application1.Autocar=org.springframework.stereotype.Component
+application1.AutomobilService=org.springframework.stereotype.Component
+application1.GeneralAutomobilService=org.springframework.stereotype.Component
+application1.Masina=org.springframework.stereotype.Component
+application1.Motocicleta=org.springframework.stereotype.Component
+application1.Motor=org.springframework.stereotype.Component
+application2.MyBean=org.springframework.stereotype.Component
