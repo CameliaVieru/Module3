@@ -34,6 +34,14 @@ public class HomeController {
     public String user(@Validated User user, Model model) {
         System.out.println("User Page Requested");
         model.addAttribute("userName", user.getUserName());
+        model.addAttribute("emailAddress", user.getEmailAddress());
+        model.addAttribute("phoneNumber", user.getPhoneNumber());
+        model.addAttribute("dateOfBirth", user.getDateOfBirth());
         return "user";
+    }
+    @RequestMapping(value = "/about", method = RequestMethod.POST)
+    public String about(Model model){
+        System.out.println("About Page Requested");
+        return "about";
     }
 }

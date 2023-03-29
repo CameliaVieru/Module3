@@ -7,6 +7,11 @@
 <title>User Home Page</title>
 </head>
 <body>
-<h3>Salut ${userName}</h3>
+<h3>Hello ${userName}</h3>
+<P> The user details are:</p>
+<P> Name: ${userName} </p>
+<P> Email: ${emailAddress} </p>
+<P> Phone: ${phoneNumber} </p>
+<P> Date of Birth: ${dateOfBirth} </p>
 </body>
 </html>

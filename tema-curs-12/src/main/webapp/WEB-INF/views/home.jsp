@@ -12,9 +12,19 @@
 	<P>Timpul pe server este: ${serverTime}.</p>
 
 <%--	acesta este un action form care inregistreaza un user name--%>
+    <form action="about" method="post">
+        <input type="submit" value ="About">
+    </form>
 	<form action="user" method="post">
-		<input type="text" name="userName"><br> <input
-			type="submit" value="Login">
+	    <P>Username:</p>
+		<input type="text" name="userName"><br>
+		<P>Email Address: </p>
+		<input type="text" name="emailAddress"><br>
+		<P>Phone Number: </p>
+		<input type="text" name="phoneNumber"><br>
+		<P>Date of Birth: </p>
+		<input type="text" name="dateOfBirth"><br>
+		<input type="submit" value="Login">
 	</form>
 </body>
 </html>

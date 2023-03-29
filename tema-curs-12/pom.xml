@@ -44,6 +44,6 @@
     </dependencies>
 
     <build>
-        <finalName>DevmindSpringMVC</finalName>
+        <finalName>tema-curs-12</finalName>
     </build>
 </project>
