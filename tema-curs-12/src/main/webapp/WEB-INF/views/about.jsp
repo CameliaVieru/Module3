@@ -15,7 +15,7 @@
 <P> Address: YES </p>
 <P> Context Path: ${pageContext.request.contextPath}</p>
 <font color="red">The Context Path is:<%=request.getContextPath()%></font>
-<img src = "${pageContext.request.contextPath}/pegasus.jpg">
+<img src="${pageContext.request.contextPath}/pegasus.jpg">
 </body>
 </html>
 
