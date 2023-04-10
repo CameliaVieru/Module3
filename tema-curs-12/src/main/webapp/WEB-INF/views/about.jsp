@@ -13,9 +13,7 @@
 <P> Phone number: 1111 </p>
 <P> Email Address: iamapotato@potato.com </p>
 <P> Address: YES </p>
-<P> Context Path: ${pageContext.request.contextPath}</p>
-<font color="red">The Context Path is:<%=request.getContextPath()%></font>
-<img src="${pageContext.request.contextPath}/pegasus.jpg">
+<img src="${pageContext.request.contextPath}/resources/fal.jpg">
 </body>
 </html>
 
